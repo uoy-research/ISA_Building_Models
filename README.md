@@ -1,7 +1,7 @@
 # Blender and Gazebo (classic) Models of the ISA Building
 This repository links to files containing models of the ISA Building for both Blender and Gazebo.  
 The models were created by Tom Feilden supervised by Victoria Hodge and James Walker in collaboration with Richard Hawkins and Matt Osborne for a Venables Internship 2022.  
-The models are available under a [CC-BY-SA-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/) licence - see the LICENSE file in the repo. You can distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creators.
+The models are available under a CC-BY-SA-4.0 licence - see the LICENSE file in the repo for details. You can distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creators.
 
 - The Blender models require 
 
