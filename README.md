@@ -1,12 +1,16 @@
 # Blender and Gazebo (classic) Models of the ISA Building
-This repository links to files containing models of the ISA Building for both Blender and Gazebo.
+This repository links to files containing models of the ISA Building for both Blender and Gazebo.  
+The models were created by Tom Feilden supervised by Victoria Hodge and James Walker in collaboration with Richard Hawkins and Matt Osborne for a Venables Internship 2022.  
+The models are available under a [CC-BY-SA-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/) licence - see the LICENSE file in the repo. You can distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creators.
+
 - The Blender models require 
 
   * [Blender **version 300.43** or newer](https://www.blender.org/).
 
     * If the model appears black when imported into Blender then check the Blender version.
     
-    * If parts of the model are coloured pink/purple then the necessary image files may not have imported correctly. These imports can be checked by going to `File->External Data->Report Missing Files` and viewing the resulting log. 
+    * If parts of the model are coloured pink/purple then the necessary image files may not have imported correctly. These imports can be checked by going to  
+    `File->External Data->Report Missing Files` and viewing the resulting log. 
 
 - The Gazebo models require 
 
@@ -18,11 +22,11 @@ This repository links to files containing models of the ISA Building for both Bl
 
 ## Blender
 
-Blender models can be exported to a number of simulation environments suitable for robotics and autonomous systems.
+Blender models can be exported to a number of simulation environments suitable for robotics and autonomous systems. We have exported to Gazebo but, by downloading and exporting the Blender models, other simulation models can be created.
 
 ![Blender models can be exported to Gazebo, Nvidia Isaac, Unity3D or other models](Drawing1.jpg "Models (showing available models in green)")
 
-The Blender models available are
+The following ISA Building Blender models available are
 
 - ISA Building Ground Floor [Download Zip here - XXX MB]()
 
@@ -33,7 +37,7 @@ The Blender models available are
 ## Gazebo
 
 ---
-# Setting-up-a-world-in-Gazebo
+# Setting-up-a-world-in-Gazebo - by Tom Feilden
 All the details (and unique quirks) that I found out during my Summer Internship
 
 ## Prerequisites: ##
