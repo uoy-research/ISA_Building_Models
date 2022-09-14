@@ -26,13 +26,13 @@ Blender models can be exported to a number of simulation environments suitable f
 
 ![Blender models can be exported to Gazebo, Nvidia Isaac, Unity3D or other models](Drawing1.jpg "Models (showing available models in green)")
 
-The following ISA Building Blender models available are
+The following ISA Building Blender models are available:
 
-- ISA Building Ground Floor [Download Zip here - XXX MB]()
+- ISA Building Ground Floor [Download Blender Model here - XXX MB]()
 
-- ISA Building [Download Zip here - XXX MB]()
+- ISA Building [Download Blender Model here - XXX MB]()
 
-- Test Space 2 [Download Zip here - XXX MB]()
+- Test Space 2 [Download Blender Model here - 39 MB](https://drive.google.com/file/d/1U4kwkS-2b2KzH41lF9wv7h92EtZNj0s3/view?usp=sharing)
 
 ## Gazebo
 
