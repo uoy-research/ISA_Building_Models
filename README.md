@@ -34,6 +34,10 @@ The following ISA Building Blender models are available (the models are packed s
 
 - Test Space 2 [Download Blender Model here - 39 MB](https://drive.google.com/file/d/1U4kwkS-2b2KzH41lF9wv7h92EtZNj0s3/view?usp=sharing)
 
+An example view of the ISA Building Blender Model is below:
+
+![Blender model](docs/GroundFloorBlender.jpg "Screenshot from the Blender Modelof the ISA Building")
+
 ## Gazebo
 
 We have created various Gazebo archives for the ISA Building models. 
