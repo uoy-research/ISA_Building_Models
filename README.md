@@ -24,7 +24,7 @@ The models are available under a CC-BY-SA-4.0 licence - see the LICENSE file in 
 
 Blender models can be exported to a number of simulation environments suitable for robotics and autonomous systems. We have exported to Gazebo but, by downloading and exporting the Blender models, other simulation models can be created.
 
-![Blender models can be exported to Gazebo, Nvidia Isaac, Unity3D or other models](Drawing1.jpg "Models (showing available models in green)")
+![Blender models can be exported to Gazebo, Nvidia Isaac, Unity3D or other models](docs/Drawing1.jpg "Models (showing available models in green)")
 
 The following ISA Building Blender models are available (the models are packed so all required files are included):
 
@@ -35,6 +35,13 @@ The following ISA Building Blender models are available (the models are packed s
 - Test Space 2 [Download Blender Model here - 39 MB](https://drive.google.com/file/d/1U4kwkS-2b2KzH41lF9wv7h92EtZNj0s3/view?usp=sharing)
 
 ## Gazebo
+
+We have created various Gazebo archives for the ISA Building models. 
+
+![Gazebo and RViz models](docs/GroundFloorGazebo.jpg "Screenshot of Gazebo and RViz showing a robot in the Ground Floor of the ISA Building")
+
+The following archives are available:
+* Gazebo ISA Building Ground Floor model. This is a complete Gazebo World including the building's ground floor and a robot. The robot is a two-wheeled differential drive robot.  [Download Gazebo World here - 178 MB](https://drive.google.com/file/d/1K5JB6s9JYlkWoLK5MQc5lCODPK7x9PEe/view?usp=sharing)
 
 ---
 # Setting-up-a-world-in-Gazebo - by Tom Feilden
@@ -149,7 +156,7 @@ __If you encounter an issue where you can't save your gazebo world, follow these
     `cd launch`
 
     `gedit load_world_into_gazebo.launch.py`
-2. Add the code from the [load_world_into_gazebo.launch.py](https://github.com/Piebee007/Setting-up-a-world-in-Gazebo/blob/main/load_world_into_gazebo.launch.py/ "load_world_into_gazebo.launch.py") file which is in the repository
+2. Add the code from the [load_world_into_gazebo.launch.py](python/load_world_into_gazebo.launch.py/ "load_world_into_gazebo.launch.py") file which is in the repository
 3. Change line 24 from 
     `world_file_name = 'CHANGE_ME.world'`
     to the name of your world
@@ -174,8 +181,8 @@ Creating a map for rviz involves taking a picture of the floor plan (either .png
 __BE AWARE:__ door diagrams and other marks in the picture will be perceived as a wall. Use software like paint to remove the unnecessary information
 
 1. Add the files needed which is in the _maps_ folder in the root directory 
-    1. Add the file [convert_to_binary.py](https://github.com/Piebee007/Setting-up-a-world-in-Gazebo/blob/main/convert_to_binary.py)
-    2. Add the file [MakeROSMap.py](https://github.com/Piebee007/Setting-up-a-world-in-Gazebo/blob/main/MakeROSMap.py)
+    1. Add the file [convert_to_binary.py](python/convert_to_binary.py)
+    2. Add the file [MakeROSMap.py](python/MakeROSMap.py)
   
 2. Change the file names in the "__convert_to_binary.py__" indicated by the __CHANGE_ME__
 
@@ -192,7 +199,7 @@ __BE AWARE:__ door diagrams and other marks in the picture will be perceived as 
 ## Launch RVIZ ##
 
 ### Editing the launch file: ###
-Change the file names in the [launch file](https://github.com/Piebee007/Setting-up-a-world-in-Gazebo/edit/main/isa_world_v1.launch.py)
+Change the file names in the [launch file](python/isa_world_v1.launch.py)
 ``` py
 def generate_launch_description():
   package_name = 'two_wheeled_robot'
